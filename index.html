@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>DC Stargazers</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="background">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="content">
+							<div class="inner">
+								<h1>NASA's Picture of the Day</h1>
+								<p class="title1"></p>
+                                    <p>Enter a date to see NASA's picture of the day or click "Get Random NASA Picture of the Day" to get a random picture or video.</p>
+								<p> Once you select an image, click "Learn About the Current NASA Picture" to get more information about the image.</p>
+								<p class="videoWarning hidden">This is a video. Click "Learn" below to watch it.</p>
+								<span class="hidden" id="randomDate"></span>
+								<div>
+									<input type="date" name="date" class="date" id="date">
+									<a class="button primary apod" id="exact">Explore</a>
+									<div id="randomContainer">
+										<a class="button apod" id="random">Get Random NASA Picture of the Day</a>	
+									</div>
+                                    <div id="randomContainer">
+										<a class="button apod" href="#about">Learn About the Current NASA Picture</a>	
+									</div>
+								</div>
+							</div>
+						</div>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About the Picture</h2>
+                                <p class="title"></p>
+								<img src="" alt="" id="aboutImage" class="image main hidden"/>
+								<div class = "hidden" id="aboutVideoContainer"><iframe src="" alt="" class="hidden" id="aboutVideo"></iframe></div>
+								<p id="aboutExplanation">Select a date to get an explanation.</p>
+							</article>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Alia Pirruccello | Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/apod.js"></script>
+		</div>
+	</body>
+</html>
